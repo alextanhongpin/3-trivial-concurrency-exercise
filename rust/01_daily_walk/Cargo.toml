@@ -1,0 +1,11 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["alextanhongpin <alextan@seekasia.com>"]
+
+[dependencies]
+rand = "0.4"
+
+[[bin]]
+name = "rust"
+path = "main.rs"

@@ -1,0 +1,12 @@
+[package]
+name = "cafe"
+version = "0.1.0"
+authors = ["alextanhongpin <alextan@seekasia.com>"]
+
+[dependencies]
+rand = "0.4.2"
+threadpool = "1.7.1"
+
+[[bin]]
+name = "cafe"
+path = "main.rs"

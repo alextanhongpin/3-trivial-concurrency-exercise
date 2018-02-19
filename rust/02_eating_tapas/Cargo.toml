@@ -1,0 +1,11 @@
+[package]
+name = "tapas"
+version = "0.1.0"
+authors = ["alextanhongpin <alextan@seekasia.com>"]
+
+[dependencies]
+rand = "0.4.2"
+
+[[bin]]
+name = "tapas"
+path = "main.rs"
